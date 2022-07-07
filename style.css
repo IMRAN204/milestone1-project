@@ -1,6 +1,7 @@
 body{
     /* color:blue; */
     margin: 0;
+    font-family: Arial, sans-serif;
     
 }
 header{
@@ -53,4 +54,159 @@ header p{
     border: none;
     background-color: lightcoral;
     border: 2px solid tomato;
+}
+
+
+.banner {
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner-inner {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px 0;
+    color: white;
+}
+
+.banner-inner h1 {
+    font-size: 50px;
+    line-height: 1;
+    margin: 40px 0;
+}
+
+.banner-inner p {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.donate-button {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+/* donate today  */
+
+.donate-today {
+    padding: 150px 0;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-today h2 {
+    font-size: 35px;
+}
+
+.donate-today p {
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+.donate-today-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.donate-today-inner h3 {
+    background-color: whitesmoke;
+    padding: 40px 0;
+    width: 16%;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.input-amount-fild input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(95, 94, 94);
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.active {
+    background-color: #e09494 !important;
+    border: 1px solid tomato;
+}
+
+
+
+/* donation plan  */
+.donation-plan-main {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.donation-plan-main h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.donation-plan-description {
+    font-size: 20px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.donation-plan-inner {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.donation-plan-inner div {
+    width: 25%;
+    padding: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.donation-plan-inner h3 {
+    padding: 15px 0;
+}
+
+.donation-plan-inner p {
+    font-size: 16px;
+    padding: 5px 0;
+
+}
+
+.food {
+    background-color: aliceblue;
+}
+
+.shelter {
+    background-color: rgb(245, 224, 224);
+}
+
+.education {
+    background-color: rgb(240, 217, 169);
+}
+
+
+
+footer {
+    color: white;
+    background-color: rgb(38, 38, 68) ;
+    padding: 70px;
+    text-align: center;
+}
+
+footer h2 {
+    color: red;
+    margin-bottom: 10px;
 }
