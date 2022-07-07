@@ -186,16 +186,18 @@ header p{
 }
 
 .food {
-    background-color: aliceblue;
+    background-color: rgb(185, 203, 219);
 }
 
 .shelter {
-    background-color: rgb(245, 224, 224);
+    background-color: rgb(235, 174, 174);
 }
 
 .education {
-    background-color: rgb(240, 217, 169);
+    background-color: rgb(238, 197, 108);
 }
+
+
 
 
 
